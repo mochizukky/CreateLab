@@ -1,0 +1,12 @@
+local Part = game.Workspace.Part
+
+while true do
+	
+	Part.BrickColor = BrickColor.new(0.0, 0.0, 0.0)
+	wait(0.1)
+	Part.Material = Enum.Material.Neon
+	wait(0.1)
+	Part.Transparency = 0.5
+	wait(0.1)
+	
+end
